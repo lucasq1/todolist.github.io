@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@300;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Mohave', sans-serif;
+    
+    
+}
+
+.container{
+    width: 500px;
+    
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, .5);
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 2em;
+    overflow: hidden;
+    background-image: url("/img/fakurian-design-UiiHVEyxtyA-unsplash.jpg"), linear-gradient(111deg, rgba(25,91,144,1) 0%, rgba(36,146,228,1) 100%);
+    background-position: center;
+    background-repeat: none;
+    background-size: contain;
+    background-attachment:fixed;
+}
+
+.h2{
+    border-bottom: 3px solid black;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    
+}
+
+.campo{
+    padding: 5px 5px;
+    outline: none;
+    width: 330px;
+    margin-right: 12px;
+    font-family: inherit;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+.btn{
+    width: 90px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 1s;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.btn:hover{
+    background: white;
+    color: black ;
+}
+
+
+.ul{
+    list-style-position: inside;
+   
+
+}
+
+.containerli{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.li{
+    width: 330px;
+    overflow: auto;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.btn-del{
+    width: 90px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all .3s;
+    font-family: inherit;
+    font-size: 1rem;
+    
+
+}
+
+.btn-del:hover{
+    background:black;
+    color: white;
+    
+}
