@@ -19,7 +19,7 @@ body{
     margin: 50px auto;
     padding: 2em;
     overflow: hidden;
-    background-image: url("/img/fakurian-design-UiiHVEyxtyA-unsplash.jpg"), linear-gradient(111deg, rgba(25,91,144,1) 0%, rgba(36,146,228,1) 100%);
+    background-image: url("img/fakurian-design-UiiHVEyxtyA-unsplash.jpg"), linear-gradient(111deg, rgba(25,91,144,1) 0%, rgba(36,146,228,1) 100%);
     background-position: center;
     background-repeat: none;
     background-size: contain;
